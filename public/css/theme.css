@@ -1,0 +1,196 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("/star_bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  width: 350px;
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+  box-shadow: 0 0 10px yellow;
+  border-radius: 10px;
+  margin: 30px auto;
+  font-weight: bold;
+}
+
+.card {
+  box-shadow: 0 0 10px lightblue;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card {
+  background-color: black;
+}
+
+.card-text,
+.card-title {
+  color: white;
+}
+
+.header-reflection,
+.header-about {
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  background: black;
+  color: white;
+  box-shadow: 0 0 10px yellow;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.about-me,
+.welcome,
+.reflection {
+  color: #fff;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+  background-color: black;
+  box-shadow: 0 0 30px lightblue;
+  color: white;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.reflection {
+  box-shadow: 0 0 30px lightcoral;
+}
+
+.list-container {
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  background-color: black;
+  box-shadow: 0 0 20px yellow;
+  color: white;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+  box-shadow: 0 0 20px white;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 350px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin: 0 5px;
+}
+
+a:hover {
+  background-color: yellow;
+  color: black;
+}
+
+nav a:hover {
+  background-color: yellow;
+  border-radius: 10px;
+  color: black;
+}
+
+caption {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+}
+
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #444;
+}
+
+tr:nth-child(odd) {
+  background-color: #222;
+}
+
+tfoot {
+  color: yellow;
+}
+
+.table-container {
+  color: white;
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px 90px 20px 90px;
+  box-shadow: 0 0 30px goldenrod;
+}
+
+img {
+  box-shadow: 0 0 30px orangered;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.image-container img {
+  width: 170px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.image-container img:hover {
+  transform: translateY(-10px);
+}
+
+a {
+  color: white;
+}
