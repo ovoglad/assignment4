@@ -14,14 +14,14 @@ h3 {
 }
 
 h1 {
-  width: 350px;
+  width: 375px;
   padding: 20px;
   text-align: center;
   background: black;
   color: white;
-  box-shadow: 0 0 10px yellow;
+  box-shadow: 0 0 15px yellow;
   border-radius: 10px;
-  margin: 30px auto;
+  margin: 20px auto;
   font-weight: bold;
 }
 
@@ -87,9 +87,9 @@ ul {
   max-width: 350px;
   padding: 20px;
   background-color: black;
-  box-shadow: 0 0 20px yellow;
+  box-shadow: 0 0 20px lightsalmon;
   color: white;
-  margin: 0 auto;
+  margin: 40px auto;
   border-radius: 10px;
 }
 
@@ -126,12 +126,18 @@ nav a:hover {
 caption {
   margin-bottom: 10px;
   text-align: left;
+  background-color: black;
+  color: orange;
+  padding-left: 10px;
+  font-style: italic;
+  box-shadow: 0 0 50px lightgreen;
 }
 
-table {
+/*table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 40px;
+  margin-top: 40px;
   color: #fff;
 }
 
@@ -156,17 +162,23 @@ tr:nth-child(odd) {
 
 tfoot {
   color: yellow;
-}
+} */
 
 .table-container {
   color: white;
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 40px auto;
   background-color: black;
   border-radius: 10px;
   padding: 20px 90px 20px 90px;
   box-shadow: 0 0 30px goldenrod;
+}
+
+.table-container table {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 50px lightseagreen;
 }
 
 img {
@@ -195,12 +207,25 @@ a {
   color: white;
 }
 
+.progress-container {
+  width: 300px;
+  padding: 40px;
+  text-align: center;
+  background: black;
+  color: white;
+  box-shadow: 0 0 10px greenyellow;
+  border-radius: 10px;
+  margin: 30px auto;
+  font-size: 30px;
+  font-style: italic;
+}
+
 .form-container {
   width: 100%;
   max-width: 800px;
   border-radius: 15px;
   background-color: black;
-  padding: 100px 100px 100px 100px;
+  padding: 40px 100px 60px 100px;
   box-shadow: 0 0 30px goldenrod;
 }
 
