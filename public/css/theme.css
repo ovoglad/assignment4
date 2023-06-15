@@ -99,7 +99,7 @@ nav {
   box-shadow: 0 0 20px white;
   border-radius: 10px;
   padding: 10px;
-  max-width: 350px;
+  max-width: 500px;
   width: 100%;
   margin: 20px auto;
 }
@@ -193,4 +193,22 @@ img {
 
 a {
   color: white;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 15px;
+  background-color: black;
+  padding: 100px 100px 100px 100px;
+  box-shadow: 0 0 30px goldenrod;
+}
+
+.form-container label,
+.form-container button {
+  color: white;
+}
+
+.form-container input {
+  color: black;
 }
